@@ -4,10 +4,6 @@
     <!-- CHARSET -->
     <meta charset="utf-8" />
 
-
-    <meta http-equiv="refresh" content="0; URL=new_url" />
-
-
     <!-- SEO -->
     <title>Theta Delta Chi at MIT</title>
     <meta name="description" content="Welcome to Theta Delta Chi.">
@@ -26,11 +22,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=0">
 </head>
 <body>
+    <div id="about-image-container"><div id="about-image"></div></div>
+    <div id="navbar-outer">
+        <div id="navbar">
+            <div id="navbar-left"><a href="index.html"><img src="media/tdc.png" height="63" /></a></div>
+            <div id="navbar-right">
+                <div id="navbar-large-container">
+                    <div id="navbar-large">
+                        <a href="hackfromhome.html">HFH</a>
+                        <a href="about.html">About</a>
+                        <a href="rush.html">Rush</a>
+                        <a href="brothers.html">Brothers</a>
+                        <a href="http://tdc.mit.edu/summerhousing/">Summer</a>
+                        <a href="mailto:tdc-brothers@mit.edu?subject=[TDC%20Rush%202021]%20">Contact</a>
+                        <div id="close-icon"><i class="fas fa-times" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+                <div id="hamburger-icon"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </div>
     <div id="about-fade">
         <div id="tdc-text"><h1 id="about-header">Hack From Home</h1></div>
     </div>
     <div id="about-content">
-        <iframe src="./media/HackFromHome_Info.pdf" width="100%" height="500px"></iframe>
+        <div class="hfh-pdf">
+            <iframe class="hfh-pdf" width="100%" height="1000px"src="./media/HackFromHome_Info.pdf"></iframe>
+        </div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

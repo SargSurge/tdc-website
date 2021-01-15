@@ -1,3 +1,18 @@
+
+.hfh-pdf {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    animation-delay: .5s;
+    animation-duration: 3s;
+    margin: auto;
+    max-width: 1500px;
+    margin-top: 10px;
+}
+
 /* EVENT IMAGES */
 #event-1 {
     background: center url('https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/05/burger-patties-on-grill-in-flames.jpg?fit=500%2C366&ssl=1');
@@ -188,11 +203,13 @@ body {
     color: white;
     font-size: 25px;
     text-align: left;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     animation-delay: .5s;
     animation-duration: 3s;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 #navbar-outer {
     color: white;
@@ -299,12 +316,12 @@ body {
 }
 
 #about-content {
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
     overflow: hidden;
     position: absolute;
-    top: 400px;
-    left: 0;
+    padding-top: 400px;
+    padding-left: 0;
 }
 
 .section-container {
